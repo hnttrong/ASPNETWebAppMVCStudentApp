@@ -10,6 +10,7 @@ using ASPNETWebAppMVCStudentApp.Models;
 
 namespace ASPNETWebAppMVCStudentApp.Controllers
 {
+    [Authorize]
     public class DepartmentsController : Controller
     {
         private SchoolDBEntities db = new SchoolDBEntities();
